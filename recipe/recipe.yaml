@@ -1,5 +1,5 @@
 context:
-  version: "0.0.1"
+  version: "0.0.2"
   python_min: "3.11"
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/easyimaging/easyimaging-${{ version }}.tar.gz
-  sha256: a0542a37a922ae6131cb2cd9dcc7ad7d2650e22f1b5e5d3bab768d96d536ef73 
+  sha256: bd083caf5f62d43bc8726e5835201c774ab5925ad3117007574717f7d739123b
 
 build:
   number: 0
