@@ -18,8 +18,8 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - hatchling <=1.21.0
-    - setuptools-git-versioning
+    - hatchling
+    - versioningit
     - pip
   run:
     - python >=${{ python_min }},<3.14
