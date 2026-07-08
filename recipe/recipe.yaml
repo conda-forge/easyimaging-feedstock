@@ -23,7 +23,7 @@ requirements:
     - pip
   run:
     - python >=${{ python_min }},<3.14
-    - easyscience >=2.2.0
+    - easyscience >=2.4.0
     - scitiff
     - essimaging
     - plopp
