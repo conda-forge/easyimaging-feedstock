@@ -29,12 +29,11 @@ requirements:
     - plopp
     - ncrystal
     - pooch
-
+  
 tests:
   - python:
       imports:
         - easyimaging
-      pip_check: true
       python_version:
         - ${{ python_min }}.*
         - "*"
