@@ -11,7 +11,7 @@ source:
   sha256: bd083caf5f62d43bc8726e5835201c774ab5925ad3117007574717f7d739123b
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -47,3 +47,4 @@ about:
 extra:
   recipe-maintainers:
     - MridulS
+    - conda-forge/easyscience
